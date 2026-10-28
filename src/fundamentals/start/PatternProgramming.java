@@ -2,7 +2,7 @@ package fundamentals.start;
 
 public class PatternProgramming {
     public static void printA(int nVariable) {
-//        int nVariable = 9;
+
         for (int i = 0; i < nVariable; i++) {
             for (int j = 0; j < nVariable; j++) {
                 if (((i == 0 || i == (nVariable - 1) / 2) && j > 0 && j < nVariable - 1) ||
