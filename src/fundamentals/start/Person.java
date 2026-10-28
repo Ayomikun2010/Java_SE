@@ -14,13 +14,13 @@ public class Person {
     }
 
     public static void main(){
-        Person persn  = new Person();
+        Person person  = new Person();
         Person person2 = new Person();
         Person person3 = new Person();
         Person person4 = new Person();
 
 
-        System.out.println(persn.sayMyName2("Jide Kosoko"));
+        System.out.println(person.sayMyName2("Jide Kosoko"));
 
         String persn2 = person2.sayMyName2("Bolatito Fernandez");
         System.out.println(persn2);
@@ -32,9 +32,9 @@ public class Person {
         System.out.println(persn4);
 
 
-//        String Enter_ame("Ayomikun")
+//        String Enter_name = ("Samuel");
 //        Person person = new Person();
-//        String name = person.sayMyName();
-//        System.out.println(name);
+        String name = sayMyName();
+        System.out.println(name);
     }
 }
