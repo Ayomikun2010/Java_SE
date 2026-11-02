@@ -43,3 +43,21 @@ public class PatternProgramming {
         printB(9);
     }
 }
+
+//
+//    public static void printLetterZ(int nVariable){
+//        for (int i = 0; i < nVariable; i++) {
+//            for (int j = 0; j < nVariable; j++) {
+//
+//                if (i == 0 || i == nVariable - 1 ||
+//                        j == nVariable - 1 - i) {
+//
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println("");
+//        }
+//    }
+//        printLetterZ(9);
