@@ -1,11 +1,11 @@
 package fundamentals.datatypes;
 
 public class BankAccount {
-   private String accountNumber;
+   private int accountNumber;
    private double accountBalance;
    private String accountOwnerName;
 
-   public void setAccountNumber(String accountNumber){
+   public void setAccountNumber(int accountNumber){
        this.accountNumber = accountNumber;
    }
 
@@ -17,7 +17,7 @@ public class BankAccount {
        this.accountOwnerName = accountOwnerName;
    }
 
-   public String getAccountNumber(){
+   public int getAccountNumber(){
        return this.accountNumber;
    }
 

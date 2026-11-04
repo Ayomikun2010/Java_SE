@@ -12,7 +12,7 @@ public class NumberGuesser {
         Scanner collectVal = new Scanner(System.in);
         System.out.print("Guess a number from 1 to 10");
         int number = collectVal.nextInt();
-        int randomNumber = (int) (Math.random() + 10);
+        int randomNumber = (int) (Math.random() * 10);
         if (number == randomNumber) {
             System.out.println("Congratulation you won");
         } else {
