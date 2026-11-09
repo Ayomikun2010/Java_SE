@@ -1,4 +1,4 @@
-package oop;
+package oop.stackandheaparea;
 
 public class Main {
 
