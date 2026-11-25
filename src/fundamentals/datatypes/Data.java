@@ -32,5 +32,12 @@ public class Data {
         double val3 = 12479448712345670983.345d;
         System.out.println("The value for double is " + val3);
 
+        String txt1 = "alex";
+        String txt2 = "alex";
+        System.out.println(txt1.equals(txt2));
+
+
+
+
     }
 }

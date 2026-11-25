@@ -1,4 +1,4 @@
-import fundamentals.start.Hello;
+//import fundamentals.start.Hello;
 import fundamentals.start.Person;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
