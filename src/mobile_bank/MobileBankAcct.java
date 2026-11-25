@@ -1,61 +1,36 @@
 package mobile_bank;
 
-import java.util.*;
-
 public class MobileBankAcct {
-    private String authentication;
-    private String userInputField;
-    private String recordModifier;
-    Map <String,Object> Profile = new HashMap<>();
+
+    private String customerId;
+    private String fullName;
+    private String governmentId;
+    private String phoneNumber;
+    private String email;
+    private String residentialAddress;
 
 
-    MobileBankAcct(String name){
-        this.authentication = name;
-        
-        Profile.put("userName", authentication);
+    public void Acct (){
+        String customerId;
+        String fullName;
+        String governmentId;
+        String phoneNumber;
+        String email;
+        String residentialAddress;
     }
 
-    public String SayYourName(){
-        Scanner collect = new Scanner(System.in);
-        System.out.println("Enter your name");
-        String userName = collect.nextLine();
-        return authentication;
-//        return
-    }
+    public void displayCustomerDetails() {
 
-    public String UserInput(int input){
-        Scanner collect = new Scanner(System.in);
-        System.out.println("Enter amount of money");
-        int userInput = collect.nextInt();
-        return userInputField;
-    }
-
-    public void 
-
+        System.out.println("CUSTOMER PROFILE");
+        System.out.println("Customer ID: " + customerId);
+        System.out.println("Full Name: " + fullName);
+        System.out.println("governmentID: "+ governmentId);
+        System.out.println("Phone: " + phoneNumber);
+        System.out.println("Email: " + email);
+        System.out.println("Address: " + residentialAddress);
 
 }
-//    public void setIdAuthenticator(String name){
-//        this.idAuthenticator = name;
-//    }
-//
-//    public String getIdAuthenticator() {
-//        return this.idAuthenticator;
-//    }
-//
-//    public void setUserInputField(String input){
-//        this.userInputField = input;
-//    }
-//
-//    public String getUserInputField() {
-//        return this.userInputField;
-//    }
-//
-//    public void setRecordModifier(String record){
-//        this.recordModifier= record;
-//    }
-//
-//    public String getRecordModifier() {
-//        return this.recordModifier;
-//    }
-//}
-//
+
+
+
+
